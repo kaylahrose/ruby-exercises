@@ -8,7 +8,7 @@ RSpec.describe Beaver do
     expect(barry).to be_an_instance_of(Beaver)
   end
 
-  it 'has a name' do
+    it 'has a name' do
     barry = Beaver.new("Barry")
 
     expect(barry.name).to eq("Barry the Beaver")
